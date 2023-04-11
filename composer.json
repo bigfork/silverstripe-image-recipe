@@ -1,0 +1,27 @@
+{
+    "name": "bigfork/silverstripe-image-recipe",
+    "description": "Connects multiple modules for Webp & <picture> support in Silverstripe",
+    "type": "silverstripe-vendormodule",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Loz Calver",
+            "email": "lozcalver@bigfork.co.uk"
+        }
+    ],
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "bigfork/silverstripe-webp-formatter": "^1",
+        "jonom/focuspoint": "^4",
+        "kinglozzer/silverstripe-picture": "^1.4.1",
+        "silverstripe/assets": "^1",
+        "silverstripe/framework": "^4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bigfork\\SilverstripeImageRecipe\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
