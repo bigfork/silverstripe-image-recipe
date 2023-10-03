@@ -5,6 +5,10 @@ Kinglozzer\SilverstripePicture\Img:
   extensions:
     - Bigfork\SilverstripeImageRecipe\ObjectPositionExtension
     - Bigfork\SilverstripeImageRecipe\WebpEnablerExtension
+    - Bigfork\SilverstripeImageRecipe\ImgAltTextExtension
 Kinglozzer\SilverstripePicture\Source:
   extensions:
     - Bigfork\SilverstripeImageRecipe\WebpEnablerExtension
+SilverStripe\Assets\Image:
+  extensions:
+    - Bigfork\SilverstripeImageRecipe\ImageAltTextExtension
