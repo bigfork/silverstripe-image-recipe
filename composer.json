@@ -15,7 +15,7 @@
         "bigfork/silverstripe-webp-formatter": "^1",
         "jonom/focuspoint": "^4 || ^5",
         "kinglozzer/silverstripe-picture": "^1.4.1 || ^2",
-        "purplespider/asset-alt-text": "^1",
+        "purplespider/asset-alt-text": "^1 || ^2",
         "silverstripe/assets": "^1 || ^2",
         "silverstripe/framework": "^4 || ^5"
     },
