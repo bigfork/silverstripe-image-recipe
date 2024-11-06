@@ -16,7 +16,7 @@ class WebpEnablerExtension extends Extension
                 continue;
             }
 
-            $candidate['image'] = $image->Webp();
+            $candidate['image'] = $image->Convert('webp');
         }
         $this->owner->setImageCandidates($candidates);
     }
