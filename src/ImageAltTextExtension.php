@@ -8,6 +8,8 @@ class ImageAltTextExtension extends Extension
 {
     public function updateAttributes(array &$attributes): void
     {
-        $attributes['alt'] = $this->owner->AltText ?? '';
+        if ($this->getOwner()->getIsImage()) {
+            $attributes['alt'] = $this->owner->AltText ?? '';
+        }
     }
 }

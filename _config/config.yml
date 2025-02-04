@@ -9,6 +9,9 @@ Kinglozzer\SilverstripePicture\Img:
 Kinglozzer\SilverstripePicture\Source:
   extensions:
     - Bigfork\SilverstripeImageRecipe\WebpEnablerExtension
+SilverStripe\Assets\Storage\DBFile:
+  extensions:
+    - Bigfork\SilverstripeImageRecipe\ImageAltTextExtension
 SilverStripe\Assets\Image:
   extensions:
     - Bigfork\SilverstripeImageRecipe\ImageAltTextExtension
